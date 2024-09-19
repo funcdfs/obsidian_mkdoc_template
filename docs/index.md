@@ -1,0 +1,1 @@
+local mac note config 

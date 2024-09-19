@@ -1,0 +1,21 @@
+{
+  "promptDelete": false,
+  "spellcheck": false,
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./",
+  "newFileLocation": "current",
+  "vimMode": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "userIgnoreFilters": [
+    "/z*"
+  ],
+  "livePreview": true
+}

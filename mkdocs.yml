@@ -1,0 +1,85 @@
+site_name: https://github.com/funcdfs
+
+theme:
+    icon:
+      logo: material/library-shelves
+    language: zh 
+    name: 'material'
+    features:
+    # - navigation.top
+    - search.suggest
+    - content.code.copy
+    - content.code.annotations
+    - navigation.footer.false
+    - navigation.sections # - 默认全部展开的模式
+    palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: grey
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Extensions
+markdown_extensions:
+
+  # Python Markdown
+  - abbr #下划线悬浮声明变量
+  - admonition #悬浮提示部分
+  - def_list #诠释定义，回车冒号空格，渲染为一个 tab
+  - md_in_html #可以在页面中添加，html部分并插入markdown语法
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex: # 数学公式
+      generic: true
+  # - pymdownx.betterem: # 更智能的加粗渲染
+  #    smart_enable: all
+  - pymdownx.details # ??? detail 加一个tab 就是可下拉的列表了
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:material.extensions.emoji.twemoji
+  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite # 行内的代码高亮
+  - pymdownx.keys # ++ctrl+alt+delete++ 快捷键
+  - pymdownx.mark # ==高亮== 前后添加空格
+  - pymdownx.tilde # ~~Delete me~~
+  # - pymdownx.smartsymbols # https://facelessuser.github.io/pymdown-extensions/extensions/smartsymbols/
+  # - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+plugins:
+  - search
+  - callouts
+  - roamlinks
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/funcdfs
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<funcdfs@gmail.com>
+
+extra_javascript:
+  - z-diy/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js 
+
+extra_css:
+  - z-config/extra.css
