@@ -3,6 +3,22 @@
     {
       "basename": "index",
       "path": "index.md"
+    },
+    {
+      "basename": "2024_09_25_18_57",
+      "path": "time/2024_09_25_18_57.md"
+    },
+    {
+      "basename": "template",
+      "path": "day/template.md"
+    },
+    {
+      "basename": "日记_九月_25日_周三晚上_2024",
+      "path": "day/日记_九月_25日_周三晚上_2024.md"
+    },
+    {
+      "basename": "template",
+      "path": "time/template.md"
     }
   ],
   "omittedPaths": [],

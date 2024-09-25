@@ -1,5 +1,6 @@
 {
-  "folder": "100day日记",
-  "autorun": true,
-  "template": "100day日记/template"
+  "folder": "day",
+  "autorun": false,
+  "template": "day/template",
+  "format": "[日记]_MMMM_Do_dddA_YYYY"
 }

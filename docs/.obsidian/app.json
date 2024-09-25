@@ -4,7 +4,7 @@
   "useMarkdownLinks": true,
   "attachmentFolderPath": "./",
   "newFileLocation": "current",
-  "vimMode": true,
+  "vimMode": false,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",
@@ -17,5 +17,6 @@
   "userIgnoreFilters": [
     "/z*"
   ],
-  "livePreview": true
+  "livePreview": true,
+  "showRibbon": true
 }
