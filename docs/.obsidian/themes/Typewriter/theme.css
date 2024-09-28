@@ -637,7 +637,6 @@ community:
 
 
 
-
 .cm-header-2::before {
   content: "";
   position: absolute;
@@ -658,6 +657,6 @@ community:
   width: 120px;
   height: 12px;
   transform: skew(-12deg) translateX(-50%);
-  background: rgba(32, 178, 222, 0.397);
+  background: rgba(242, 250, 14, 0.397);
   z-index: -1;
 }
