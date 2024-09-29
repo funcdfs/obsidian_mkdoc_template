@@ -1,7 +1,7 @@
 > GitHub's default Markdown preview works well but isn't ideal for viewing notes on mobile or tablets.   
 Obsidian is a great note-taking software, but its publish feature is paid and lacks customization.    
 MkDocs is an excellent renderer for displaying personal notes (emmm, obsidian default UI).   
-Hosting your ==obsidian notes on gitHub-pages or vercel using mkDocs==  is the **perfect solution** for full accessibility across all devices."
+$\displaystyle \text{Hosting your obsidian notes on github-pages or vercel using mkdocs}$ is the **perfect solution** for full accessibility across all devices."
 
 
 ## obsidian_mkdocs_template

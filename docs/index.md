@@ -107,7 +107,8 @@ Here is an example of `inline code`.
 ### Block Code (various languages)
 
 #### JavaScript
-```javascript
+
+```js
 function greet(name) {
     console.log("Hello, " + name + "!");
 }
@@ -115,7 +116,8 @@ greet("Markdown Tester");
 ```
 
 #### Python
-```python
+
+```py
 def greet(name):
     print(f"Hello, {name}!")
 
@@ -123,6 +125,7 @@ greet("Markdown Tester")
 ```
 
 #### HTML
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
